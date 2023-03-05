@@ -1,0 +1,60 @@
+
+
+body{
+    font-family: 'Inter';
+}
+/*header*/
+
+header{
+    padding: 15px;
+}
+header h1 img{
+   
+    color: red;
+    width: 16px;
+    
+}
+header p{
+
+font-style: normal;
+
+}
+.headerdiv{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.headerdisplay{
+    display: inline-block;
+}
+div nav{
+    width: 50%;
+    margin-left: 10%;
+}
+div nav a{
+    margin-left: 10%;
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+div nav a:hover{
+    color: black;
+}
+div section{
+float: right;
+}
+div section button:first-child{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(88, 88, 88);
+    margin-right: 10px;
+}
+div section button:first-child:hover{
+    color: rgb(0, 0, 0);
+}
+div section button:nth-child(2){
+    border: none;
+    background-color: rgb(167, 1, 1);
+    color: rgb(255, 255, 255);
+    padding: 7px;
+    border-radius: 5px;
+}
+/*header*/
