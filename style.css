@@ -1,60 +1,106 @@
 
 
 body{
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
 }
 /*header*/
-
 header{
-    padding: 15px;
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    background-color: ;
 }
-header h1 img{
-   
-    color: red;
-    width: 16px;
+header ul{
+    list-style: none;
+}
+header ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+header ul li a {
+  color: #ffffffff;
+  text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    color: white;
+}
+.banner{
+    height: 85vh;
+    background-image: url(imagens/img2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto-principal{
+ 
+}
+h2{
+    font-size: 4em;
+    color: white;
+    opacity: 100%;
+}
+.contato{
+}
+/*header*/
+/*main*/
+.sobre{
+    height: 100vh;
+    background-color: white;
+}
+/*cabecalho*/
+.cabecalho{
+    text-align: center;
+    padding: 50px;
+}
+.sobrenos{
+    color: #89C798;
+    margin: 30px;
+    margin-bottom: 10px;
+}
+.sobrenos:hover{
+    color: #bef5cc;
+}
+.sobrenostext{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.cabecalho h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+.conteudocabecalho{
+    width: 70%;
+    margin-left:auto;
+    margin-right: auto;
+    color: rgb(88, 88, 88);
+}
+/*cabecalho*/
+/*metricas*/
+.metricas{
+    padding: 40px;
+}
+.metricas li{
+    background-color: black;
+    width: 24.7%;
+    height: px;
+    display: inline-block;
     
 }
-header p{
-
-font-style: normal;
-
-}
-.headerdiv{
-    margin-left: 5%;
-    margin-right: 5%;
-}
-.headerdisplay{
-    display: inline-block;
-}
-div nav{
-    width: 50%;
-    margin-left: 10%;
-}
-div nav a{
-    margin-left: 10%;
-    text-decoration: none;
-    color: rgb(88, 88, 88);
-}
-div nav a:hover{
-    color: black;
-}
-div section{
-float: right;
-}
-div section button:first-child{
-    border: none;
-    background-color: rgb(255, 255, 255);
-    color: rgb(88, 88, 88);
-    margin-right: 10px;
-}
-div section button:first-child:hover{
-    color: rgb(0, 0, 0);
-}
-div section button:nth-child(2){
-    border: none;
-    background-color: rgb(167, 1, 1);
-    color: rgb(255, 255, 255);
-    padding: 7px;
-    border-radius: 5px;
-}
-/*header*/
+/*metricas*/
+/*main/
