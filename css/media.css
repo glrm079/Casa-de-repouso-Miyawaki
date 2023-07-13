@@ -1,0 +1,166 @@
+@media only screen and (max-width: 1285px){
+    .texto-principal h2{
+        font-size: 2.1em;}
+}
+
+
+@media only screen and (max-width: 849px){
+    .texto-principal h2{
+        font-size: 3em;
+        color: white;
+        opacity: 100%;
+        margin-bottom: 10px;}
+        .sobre{
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+        .sobre-img{
+            width: 100%;
+        }
+        .sobre-text{
+            width: 100%;
+        }
+        .sobre-nos h3{
+            font-size: 2em;
+        }
+        .sobre{
+            display: flex;
+        }
+        .unidade2{
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+        .unidade1{
+            flex-direction: column-reverse;
+            flex-wrap: nowrap;
+        }
+        .listacasa{
+            width: 100%;
+          
+        }
+        .fotoscasa{
+            width: 100%;
+        }
+
+}
+@media only screen and (max-width: 616px){
+    .texto-principal h2{
+        font-size: 2em;
+        color: white;
+        opacity: 100%;
+        margin-bottom: 10px;
+        }
+    header ul li{
+        display: inline-block;
+        margin: 0 6px;}
+        .sobre-img{
+            width: 100%;
+          
+        }
+        .sobre-text{
+            width: 100%;
+         
+        }
+}
+@media only screen and (max-width: 420px){
+    .texto-principal h2{
+        font-size: 1.5em;
+        color: white;
+        opacity: 100%;
+        margin-bottom: 10px;
+        }
+    header ul li{
+        display: inline-block;
+        margin: 0 3px;
+        font-size: 15px;}
+        .sobre-img{
+            width: 100%;
+           
+        }
+        .sobre-text{
+            width: 100%;
+            
+        }
+}
+@media only screen and (max-width: 383px){
+    .texto-principal h2{
+        font-size: 1.5em;
+        color: white;
+        opacity: 100%;
+        margin-bottom: 10px;
+        }
+    header ul li{
+        display: inline-block;
+        margin: 0 3px;
+        font-size: 13px;}
+}
+@media only screen and (max-width: 347px){
+    .texto-principal h2{
+        font-size: 1.5em;
+        color: white;
+        opacity: 100%;
+        margin-bottom: 10px;
+        }
+    header ul li{
+        display: inline-block;
+        margin: 0 3px;
+        font-size: 11px;}
+}
+@media only screen and (max-width: 309px){
+    .texto-principal h2{
+        font-size: 1.3em;
+        color: white;
+        opacity: 100%;
+        margin-bottom: 10px;
+        }
+    header ul li{
+        display: inline-block;
+        margin: 0 3px;
+        font-size: 10px;}
+}
+@media only screen and (max-width: 309px){
+    .texto-principal h2{
+        font-size: 1.3em;
+        color: white;
+        opacity: 100%;
+        margin-bottom: 10px;
+        }
+    header ul li{
+        display: inline-block;
+        margin: 0 3px;
+        font-size: 10px;}
+        .sobre-img{
+            width: 100%;
+            
+            
+        }
+        .sobre-text{
+            width: 100%;
+           
+            
+        }
+}
+@media only screen and (max-width: 287px){
+    .texto-principal h2{
+        font-size: 1em;
+        color: white;
+        opacity: 100%;
+        margin-bottom: 10px;
+        }
+    header ul li{
+        display: inline-block;
+        margin: 0 1px;
+        font-size: 8px;}
+}
+@media only screen and (max-width: 238px){
+    .sobre-img{
+        width: 100%;
+        
+        
+    }
+    .sobre-text{
+        width: 100%;
+        
+        
+    }
+}
