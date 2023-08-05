@@ -63,7 +63,7 @@ h1{
 }
 .banner{
     height: 85vh;
-    background-image: url(/imagens/Cream\ Abstract\ Aesthetic\ Desktop\ Wallpaper\ \(4\).png);
+    background-image: url(/imagens/landingpage.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,10 +140,15 @@ h1{
     margin-bottom: 10px;
 }
 .sobre-nos h3{
-    font-size: 4em;
+    font-size: 3em;
     color: rgb(0, 0, 0);
     margin-bottom: 10px;
     font-weight: bold;
+}
+.tamanho{
+
+    display: none;
+    justify-content: center;
 }
 .sobre-nos-text{
     display: block;
@@ -173,7 +178,7 @@ h1{
 .titulo-diferenciais h3{
     font-size: 4em;
     margin: 10px;
-    margin-bottom: 80px;
+    margin-bottom: 10px;
     color: white;
     font-weight: bold;
 }
@@ -218,10 +223,21 @@ h1{
     padding: 50px;
     justify-content: center;
 }
-.listacasa h3{
-  font-size: 3em;
-  margin-bottom: 30px;
-  font-weight: bold;
+.fotoscasa{
+    display: flex;
+    flex-direction: column;
+}
+
+.loctittle{
+    font-size: 3em;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.loc1{
+
+}
+.locshow{
+    display: none;
 }
 .listacasa p{
     font-size: 1.4em;
@@ -272,11 +288,11 @@ footer{
     color: #ffffff;
 }
 .redes a{
-  display: inline-block;
+  display: inline;
 }
 .redes ul li{
     display: inline-block;
-    margin: 0 10px;
+   
 }
 .redes ul li a {
   color: #ffffffff;
@@ -298,5 +314,14 @@ footer{
    
 }
 .copyrigth{
-    margin-top: 50px;
+    margin-top: 20px;
+}
+.footer1{
+    
+}
+.footer2{
+    display: none;
+}
+.footer3{
+    display: none;
 }
