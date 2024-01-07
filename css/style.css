@@ -9,7 +9,7 @@ main{
     flex-direction: column;
     width: 360px;
     height: 100vh;
-    background-color: white;
+  
     
 }
 header{
@@ -85,3 +85,10 @@ header{
     font-weight: bolder;
     text-align: center;
  }
+.sobreimg{
+    padding: 20px;
+    height: 50vh;
+    background-image: url(/imagens/sobre.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
