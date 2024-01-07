@@ -44,7 +44,7 @@
         height: 80vh;
     }
     .landingpage  h1{
-        font-size: 40px;
+        font-size: 50px;
         margin: 10px;
         font-weight: bolder;
      }
@@ -76,7 +76,7 @@
      }
      .sobreLanding  p{
         margin-top: 20px;
-        font-size: 16px;
+        font-size: 25px;
      }
     
   }
